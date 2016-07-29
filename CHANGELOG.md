@@ -8,3 +8,6 @@
 
 ## v1.0.2
 1. Improved the Script partial for React v15.2.1 & React DOM v15.2.1
+
+## v1.0.3
+1. Improved the Ruby Gem Specification to support Rails v5.0
