@@ -20,6 +20,13 @@ gem 'repres-react'
 
 
 
+## Include the Helper in your Application Controller before Render the Script with the helper methods
+```ruby
+helper Repres::React::ApplicationHelper
+```
+
+
+
 ## Render the Pre-defined Partials
 
 ### Render the Script
@@ -28,16 +35,22 @@ The Script partial includes the HTML script tags for React and its extensions. O
 The following code snippet does __not__ load any JavaScript library.
 ```erb
 <%= render partial: 'repres/react/script' %>
+<!-- or the following line works identically -->
+<%= react_script %>
 ```
 
 The following code snippet loads the latest React JavaScript library.
 ```erb
 <%= render partial: 'repres/bootstrap/script', locals: { options: { react: true, 'react-dom': true } } %>
+<!-- or the following line works identically -->
+<%= react_script react: true, 'react-dom': true %>
 ```
 
 The following code snippet loads the React JavaScript library with the given version.
 ```erb
 <%= render partial: 'repres/bootstrap/script', locals: { options: { react: { version: '15.0.2' }, 'react-dom': { version: '15.0.2' } } }
+<!-- or the following line works identically -->
+<%= react_script react: { version: '15.0.2' }, 'react-dom': { version: '15.0.2' } %>
 %>
 ```
 

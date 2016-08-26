@@ -14,3 +14,7 @@
 
 ## v1.0.4
 1. Improved the Script partial for React v15.3.0 & React DOM v15.3.0
+
+## v1.1
+1. Application helper
+2. Improved the Script partial for React v15.3.1 & React DOM v15.3.1
