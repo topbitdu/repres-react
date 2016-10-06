@@ -9,12 +9,14 @@ Repres (REsource PRESentation) is a series of resource presentation engines. The
 
 
 ## Recent Update
+
 Check out the [Road Map](ROADMAP.md) to find out what's the next.
 Check out the [Change Log](CHANGELOG.md) to find out what's new.
 
 
 
 ## Usage in Gemfile
+
 ```ruby
 gem 'repres-react'
 ```
@@ -22,6 +24,7 @@ gem 'repres-react'
 
 
 ## Include the Helper in your Application Controller before Render the Script with the helper methods
+
 ```ruby
 helper Repres::React::ApplicationHelper
 ```
@@ -31,6 +34,7 @@ helper Repres::React::ApplicationHelper
 ## Render the Pre-defined Partials
 
 ### Render the Script
+
 The Script partial includes the HTML script tags for React and its extensions. Only the [Boot CDN](http://cdn.bootcss.com/) servers are supported.
 
 The following code snippet does __not__ load any JavaScript library.
@@ -49,10 +53,9 @@ The following code snippet loads the latest React JavaScript library.
 
 The following code snippet loads the React JavaScript library with the given version.
 ```erb
-<%= render partial: 'repres/bootstrap/script', locals: { options: { react: { version: '15.0.2' }, 'react-dom': { version: '15.0.2' } } }
+<%= render partial: 'repres/bootstrap/script', locals: { options: { react: { version: '15.0.2' }, 'react-dom': { version: '15.0.2' } } } %>
 <!-- or the following line works identically -->
 <%= react_script react: { version: '15.0.2' }, 'react-dom': { version: '15.0.2' } %>
-%>
 ```
 
 The following JavaScript libraries are switchable, and the version can be configurable:
