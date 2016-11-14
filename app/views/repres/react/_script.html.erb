@@ -2,3 +2,5 @@
 
 <%= javascript_include_tag "//cdn.bootcss.com/react/#{library_version(:react, '15.3.2', options)}/react.min.js" if library_enabled?(:react, options) %>
 <%= javascript_include_tag "//cdn.bootcss.com/react/#{library_version(:'react-dom', '15.3.2', options)}/react-dom.min.js" if library_enabled?(:'react-dom', options) %>
+
+<%= javascript_include_tag "//cdn.bootcss.com/redux/#{library_version(:redux, '3.6.0', options)}/redux.min.js" if library_enabled?(:redux, options) %>
