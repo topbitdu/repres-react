@@ -21,3 +21,6 @@
 
 ## v1.1.1
 1. Improved the Script partial for React v15.3.2 & React DOM v15.3.2
+
+## v1.2
+1. Improve the Script partial for Redux v3.6.0

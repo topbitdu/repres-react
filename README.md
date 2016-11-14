@@ -61,3 +61,4 @@ The following code snippet loads the React JavaScript library with the given ver
 The following JavaScript libraries are switchable, and the version can be configurable:
 - :react
 - :'react-dom'
+- :redux
