@@ -1,3 +1,3 @@
-class Repre::React::ApplicationRecord < ActiveRecord::Base
+class Repres::React::ApplicationRecord < ActiveRecord::Base
   self.abstract_class = true
 end
