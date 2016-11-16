@@ -1,2 +1,2 @@
-class Repre::React::ApplicationJob < ActiveJob::Base
+class Repres::React::ApplicationJob < ActiveJob::Base
 end
