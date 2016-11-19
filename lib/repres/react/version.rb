@@ -1,5 +1,5 @@
 module Repres
   module React
-    VERSION = '1.2.1'.freeze
+    VERSION = '1.3'.freeze
   end
 end
