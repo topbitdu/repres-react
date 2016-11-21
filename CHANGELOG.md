@@ -31,6 +31,6 @@
 3. Improve the Application record for namespace
 
 ## v1.3
-1. Improve the Ruby Gem Specification to depend on the [Repres HyperText](https://github.com/topbitdu/repres-hyper_text) v1.2 Ruby Gem
-2. Improve the Ruby Gem Specification to never depend on the [Rails](https://github.com/rails/rails) v4.2 Ruby Gem
+1. Improve the Ruby Gem Specification to depend on the [repres-hyper_text](https://github.com/topbitdu/repres-hyper_text) v1.2 Ruby Gem
+2. Improve the Ruby Gem Specification to never depend on the [rails](https://github.com/rails/rails) v4.2 Ruby Gem
 3. Improve the Script partial to support the :cdn option
