@@ -26,7 +26,7 @@
 1. Improved the Script partial for Redux v3.6.0
 
 ## v1.2.1
-1. Improve the Application job for namespace
+1. Improved the Application job for namespace
 2. Improve the Application mailer for namespace
 3. Improve the Application record for namespace
 
