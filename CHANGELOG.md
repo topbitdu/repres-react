@@ -28,7 +28,7 @@
 ## v1.2.1
 1. Improved the Application job for namespace
 2. Improved the Application mailer for namespace
-3. Improve the Application record for namespace
+3. Improved the Application record for namespace
 
 ## v1.3
 1. Improve the Ruby Gem Specification to depend on the [repres-hyper_text](https://github.com/topbitdu/repres-hyper_text) v1.2 Ruby Gem
