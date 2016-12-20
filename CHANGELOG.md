@@ -20,7 +20,7 @@
 2. Improved the Script partial for [React](https://github.com/facebook/react) v15.3.1 & React DOM v15.3.1
 
 ## v1.1.1
-1. Improved the Script partial for React v15.3.2 & React DOM v15.3.2
+1. Improved the Script partial for [React](https://github.com/facebook/react) v15.3.2 & React DOM v15.3.2
 
 ## v1.2
 1. Improved the Script partial for [Redux](https://github.com/reactjs/redux) v3.6.0
