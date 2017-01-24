@@ -34,3 +34,6 @@
 1. Improved the Ruby Gem Specification to depend on the [repres-hyper_text](https://github.com/topbitdu/repres-hyper_text) v1.2 Ruby Gem
 2. Improved the Ruby Gem Specification to never depend on the [rails](https://github.com/rails/rails) v4.2 Ruby Gem
 3. Improve the Script partial to support the :cdn option
+
+## v1.3.1
+1. Improve the Script partial for [React](https://github.com/facebook/react) v15.4.2 & React DOM v15.4.2
