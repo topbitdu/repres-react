@@ -37,3 +37,8 @@
 
 ## v1.3.1
 1. Improve the Script partial for [React](https://github.com/facebook/react) v15.4.2 & React DOM v15.4.2
+
+## v1.4
+1. Models RSpec examples manifest
+2. Types RSpec examples manifest
+3. Validators RSpec examples manifest
