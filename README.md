@@ -64,3 +64,18 @@ The following JavaScript libraries are switchable, and the version can be config
 - :react
 - :'react-dom'
 - :redux
+
+
+
+## RSpec examples
+
+```ruby
+# spec/models/repres_spec.rb
+require 'repres/react/models_rspec'
+
+# spec/types/repres_spec.rb
+require 'repres/react/types_rspec'
+
+# spec/validators/repres_spec.rb
+require 'repres/react/validators_rspec'
+```
