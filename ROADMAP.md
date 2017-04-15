@@ -7,7 +7,7 @@
 1. Improve the Script partial for [React](https://github.com/facebook/react) v15.1.0 & [React DOM](https://github.com/facebook/react) v15.1.0
 
 ## v1.0.2
-1. Improve the Script partial for [React](https://github.com/facebook/react) v15.2.1 & React DOM v15.2.1
+1. Improve the Script partial for [React](https://github.com/facebook/react) v15.2.1 & [React DOM](https://github.com/facebook/react) v15.2.1
 
 ## v1.0.3
 1. Improve the Ruby Gem Specification to support [rails](https://github.com/rails/rails) v5.0
