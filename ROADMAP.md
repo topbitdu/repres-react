@@ -45,3 +45,6 @@
 
 ## v1.4.1
 1. Improve the Ruby Gem Specification to depend on the [repres-hyper_text](https://github.com/topbitdu/repres-hyper_text) v1.2.1 Ruby Gem
+
+## v1.4.2
+1. Improve the Script partial for [React](https://github.com/facebook/react) v15.5.4 & React DOM v15.5.4
